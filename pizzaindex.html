@@ -4,7 +4,7 @@
 
 	<head>
 		<title>Collins' Pizzeria</title>
-		
+
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 		<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
 		<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap" rel="stylesheet">
@@ -48,7 +48,7 @@
 
    			 .jumbotron {
    			 	background-image: url(https://images.unsplash.com/photo-1534963063257-6b65b54e438b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1051&q=80);
-   			 	background-repeat: none;
+   			 	background-repeat: no-repeat;
    			 	background-size: cover;
    			 	background-position: center;
 
@@ -71,7 +71,20 @@
 
 
 	<body>
-		
+
+		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="pizzaindex.html">Collins' Pizzeria</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <div class="navbar-nav">
+      <a class="nav-item nav-link active" href="pizzaindex.html">Home <span class="sr-only">(current)</span></a>
+      <a class="nav-item nav-link" href="pizzacontact.html">Contact Us</a>
+    </div>
+  </div>
+</nav>
+
 		<div class="jumbotron jumbotron-fluid">
   			<div class="container">
     			<h1 class="display-4">Welcome to Collins' Pizzeria!</h1>
@@ -87,7 +100,7 @@
 				<div class = "col-6 card bd-placeholder-img">
 					<div class = "cardbody">
 					<h3>BreadSticks</h3>
-					<img src = "https://images.unsplash.com/photo-1568471173242-461f0a730452?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1030&q=80" width = "300px" height = "200px" alt = "breadsticks">
+					<img src = "https://images.unsplash.com/photo-1568471173242-461f0a730452?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1030&q=80" width = "300" height = "200" alt = "breadsticks">
 					<button type="button" class="btn btn-success">Add to Cart <i class="fas fa-shopping-cart"></i></button>
 					<p>Made Fresh Everyday, our breadsticks are made to perfection. With the right amount of flavor and crisp to every bite, they will be the perfect appetizer to get you ready for the main course.</p>
 					</div>
@@ -96,25 +109,25 @@
 				<div class = "col-6 card">
 					<div class = "cardbody">
 					<h3>Salad</h3>
-					<img src = "https://images.unsplash.com/photo-1550304943-4f24f54ddde9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80" width = "300px" height = "200px" alt = "Salad">
+					<img src = "https://images.unsplash.com/photo-1550304943-4f24f54ddde9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80" width = "300" height = "200" alt = "Salad">
 					<button type="button" class="btn btn-success">Add to Cart <i class="fas fa-shopping-cart"></i></button>
 					<p>Made with the freshest ingredients, our salads are made to order and include plenty of options to make it your very own creation. </p>
 					</div>
 				</div>
 			</div>
-		
-		
+
+
 
 
 		<h2>Main Courses</h2>
 		<br>
 
-		
+
 			<div class = "row">
 				<div class = "col-6 card">
 					<div class = "cardbody">
 					<h3>Hand Made Pizzas</h3>
-					<img src = "https://images.unsplash.com/photo-1513104890138-7c749659a591?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80" width = "300px" height = "200px" alt = "Pizza" />
+					<img src = "https://images.unsplash.com/photo-1513104890138-7c749659a591?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80" width = "300" height = "200" alt = "Pizza" />
 					<button type="button" class="btn btn-success">Add to Cart <i class="fas fa-shopping-cart"></i></button>
 					<p>Perfectly Hand-Made Pizzas, made to order and are freshly made and baked in our fire-brick ovens. With plenty of topping to choose from...</p>
 					<ul>
@@ -122,7 +135,7 @@
 							<li>Sausage</li>
 							<li>Bacon</li>
 							<li>Ground Beef</li>
-							
+
 					</ul>
 					</div>
 				</div>
@@ -130,7 +143,7 @@
 				<div class = "col-6 card">
 					<div class = "cardbody">
 					<h3>Calzones</h3>
-						<img src = "https://images.unsplash.com/photo-1517686469429-8bdb88b9f907?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80" width = "300px" height = "200px" alt = "Kneeding Dough">
+						<img src = "https://images.unsplash.com/photo-1517686469429-8bdb88b9f907?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80" width = "300" height = "200" alt = "Kneeding Dough">
 						<button type="button" class="btn btn-success">Add to Cart <i class="fas fa-shopping-cart"></i></button>
 						<p>Our Calzones are prepared and made fresh everyday. Made with the best ingredients and made to order, these are some of the best calzones you will ever have. <em>Some of the Calzones we offer</em></p>
 							<ul>
@@ -141,16 +154,16 @@
 					</div>
 				</div>
 			</div>
-		
-			
+
+
 
 			<h2>Desserts</h2>
 			<br>
-		
-			
+
+
 				<div class = "row">
 					<div class = "col-3">
-						<img src = "https://images.unsplash.com/photo-1578741211611-c70beee8cf0e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80" width = "250px" height = "300px" alt = "Slice of Cookie Pizza">
+						<img src = "https://images.unsplash.com/photo-1578741211611-c70beee8cf0e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80" width = "250" height = "300" alt = "Slice of Cookie Pizza">
 					</div>
 
 					<div class = "col-6 card">
@@ -165,16 +178,15 @@
 					</div>
 
 					<div class = "col-3">
-						<img src = "https://images.unsplash.com/photo-1590080874088-eec64895b423?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=812&q=80" width = "250px" height = "300px" alt = "brownies">
+						<img src = "https://images.unsplash.com/photo-1590080874088-eec64895b423?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=812&q=80" width = "250" height = "300" alt = "brownies">
 					</div>
 				</div>
 		</div>
 
 		<br>
 
-
 		<nav class="navbar sticky-bottom navbar-dark bg-dark">
-  		<a class="navbar-brand" href="#">Collins' Pizzeria - Follow Us On: <i class="fab fa-twitter-square"></i> <i class="fab fa-facebook-square"></i> <i class="fab fa-instagram-square"></i></a>
+  		<a class="navbar-brand" href="#">Follow Us On: <i class="fab fa-twitter-square"></i> <i class="fab fa-facebook-square"></i> <i class="fab fa-instagram-square"></i></a>
 		</nav>
 
 
